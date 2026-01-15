@@ -1,4 +1,4 @@
-'''# Southern Kurdish Bayesian Inference Project: Processes, Steps, Rationales, and Comparisons
+# Southern Kurdish Bayesian Inference Project: Processes, Steps, Rationales, and Comparisons
 
 ## Project Overview
 
@@ -81,4 +81,5 @@ Both projects apply Bayesian phylogenetics to dialect-heavy contexts to elucidat
 - **Challenges Addressed**: The SK project tackles transcription variability in low-resource settings; the Mixtecan study emphasizes overestimation of contact and critiques of alternative models (e.g., glottometry).
 - **Outputs/Implications**: The SK project produces practical metrics for a thesis; the Mixtecan study advances theoretical debates and calls for broader methodological scrutiny.
 
-In summary, the Southern Kurdish Bayesian Inference Project adapts the Mixtecan approach to a computational, phonetically oriented framework suitable for a low-resource language, rendering it more accessible while introducing new variables (e.g., ASR accuracy). Both maintain a commitment to Bayesian rigor in contact-prone linguistic environments.'''
+In summary, the Southern Kurdish Bayesian Inference Project adapts the Mixtecan approach to a computational, phonetically oriented framework suitable for a low-resource language, rendering it more accessible while introducing new variables (e.g., ASR accuracy). Both maintain a commitment to Bayesian rigor in contact-prone linguistic environments.
+
