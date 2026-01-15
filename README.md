@@ -1,4 +1,4 @@
-# Southern Kurdish Bayesian Inference Project: Processes, Steps, Rationales, and Comparisons
+'''# Southern Kurdish Bayesian Inference Project: Processes, Steps, Rationales, and Comparisons
 
 ## Project Overview
 
@@ -11,6 +11,8 @@ Key objectives include:
 - Promoting automation to address computational and logistical constraints in low-resource linguistic settings.
 
 This overview is derived from the project's README.md and supporting scripts (e.g., `sk_asr_segmentation.py`, `sk_ipa_transcription.py`, `sk_lingpy_cognate_detect.py`).
+
+While the current implementation includes references to Central Kurdish (CK) in examples (e.g., ASR models), the primary focus is on Southern Kurdish (SK). The GitHub README.md serves to highlight the overall processes for SK analysis, functioning as a template and test-case for extending the method to additional datasets, such as existing CK data.
 
 ## Processes and Steps
 
@@ -31,7 +33,7 @@ The workflow consists of six primary steps, as documented in the README.md with 
 **Rationale/Purpose**: Audio segmentation isolates individual lexemes from continuous recordings, enabling precise transcription and analysis at the word level. Embedding metadata preserves essential contextual information for potential sociolinguistic correlations. In low-resource languages such as SK, where data are often unstructured or noisy, this automated step reduces manual labor, enhances reproducibility, and prepares standardized files (e.g., `JBIL_001_one_Hala01.wav`) for downstream processing.
 
 ### Step 3: Transcription (Status: Implemented)
-**Description**: Segmented audio is transcribed orthographically using Hugging Face ASR models (e.g., `razhan/whisper-base-sdh` for SK-specific dialects such as Central Kurdish/CK). IPA transcriptions are subsequently generated using `facebook/wav2vec2-xlsr-53-espeak-cv-ft`. Multi-run variability analysis is conducted via `sk_multi_ipa.py` (e.g., 10 runs with varying temperatures for robustness), producing consolidated CSVs such as `{dataset_name}_ipa_transcriptions.csv` and `{dataset_name}_ipa_variations.csv`. Scripts including `sk_ipa_transcription.py` and `sk_ipa_variation_analysis.py` handle merging and inconsistency detection.
+**Description**: Segmented audio is transcribed orthographically using Hugging Face ASR models (e.g., `razhan/whisper-base-sdh` for SK-specific dialects. IPA transcriptions are subsequently generated using `facebook/wav2vec2-xlsr-53-espeak-cv-ft`. Multi-run variability analysis is conducted via `sk_multi_ipa.py` (e.g., 10 runs with varying temperatures for robustness), producing consolidated CSVs such as `{dataset_name}_ipa_transcriptions.csv` and `{dataset_name}_ipa_variations.csv`. Scripts including `sk_ipa_transcription.py` and `sk_ipa_variation_analysis.py` handle merging and inconsistency detection.
 
 **Tools/Scripts**: Transformers library for ASR pipelines; torch for GPU acceleration; pandas for CSV merging and analysis.
 
@@ -79,4 +81,4 @@ Both projects apply Bayesian phylogenetics to dialect-heavy contexts to elucidat
 - **Challenges Addressed**: The SK project tackles transcription variability in low-resource settings; the Mixtecan study emphasizes overestimation of contact and critiques of alternative models (e.g., glottometry).
 - **Outputs/Implications**: The SK project produces practical metrics for a thesis; the Mixtecan study advances theoretical debates and calls for broader methodological scrutiny.
 
-In summary, the Southern Kurdish Bayesian Inference Project adapts the Mixtecan approach to a computational, phonetically oriented framework suitable for a low-resource language, rendering it more accessible while introducing new variables (e.g., ASR accuracy). Both maintain a commitment to Bayesian rigor in contact-prone linguistic environments.
+In summary, the Southern Kurdish Bayesian Inference Project adapts the Mixtecan approach to a computational, phonetically oriented framework suitable for a low-resource language, rendering it more accessible while introducing new variables (e.g., ASR accuracy). Both maintain a commitment to Bayesian rigor in contact-prone linguistic environments.'''
