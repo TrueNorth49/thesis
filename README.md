@@ -204,11 +204,6 @@ The decision to work with eighty-five items rather than a larger inventory also 
 - **7.2** Proof of concept established.
 - **7.3** Future work (scaling to full West Iranian family).
 
-### Open Flags
-- Bouckaert et al. (2014) page number for compound numeral recommendation (Ch3)
-- Ronquist et al. (2012), Hohna et al. (2016), Chang et al. (2015), Grollemund et al. (2015) page numbers in Ch2.3
-- Haig (2008), Heggarty et al. (2023), Cathcart (2020), Korn (2019), Opengin (2020) page numbers in Ch2.1-2.2
-
 ---
 
 ## Timeline (February - May 2026)
@@ -216,11 +211,12 @@ The decision to work with eighty-five items rather than a larger inventory also 
 | Week | Phase | Key Tasks |
 | :--- | :--- | :--- |
 | Feb 03-09 | Foundation | Draft Intro, Data Overview, Profiles; Zotero Sync |
-| Feb 10-16 | Foundation | Ch2 Background drafted; Ch3 rewritten; Workflow locked |
-| Feb 17-23 | Analysis | Finalize LingPy thresholds; Nexus conversion; Expand Ch3 + Ch4 |
+| Feb 10-16 | Foundation | Ch2 Background alrady drafted; Ch3 rewritten; Ch4 drafted; Workflow locked |
+| Feb 17-23 | Analysis | Finalize LingPy thresholds; Nexus conversion; Expand chapters4 |
 | Feb 24-Mar 01 | Analysis | BEAST 2: Run pilot chains; Check convergence |
 | Mar 02-Mar 15 | Analysis | Adjust models; Run final chains |
 | Mar 16-Apr 12 | Drafting | Draft Results and Discussion; Merge chapters |
 | Apr 13-Apr 26 | Review | Supervisor feedback (Haig/Babinski) |
 | Apr 27-May 17 | Polishing | Revisions; LaTeX formatting; Bibliography audit |
 | May 18-May 24 | Submission | Final hand-in |
+
