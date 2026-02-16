@@ -27,7 +27,7 @@ The present study uses BEAST 2 (Bouckaert et al. 2014) with a covarion substitut
 
 ## 1.4 Scope and contributions
 
-This thesis is a proof of concept, not a definitive classification of Southern Kurdish. The dataset comprises an 85-item borrowing-resistant wordlist elicited from 11 speakers representing 6 SK varieties (Faili, Kalhori, Khanaqini, Qasri, Mandali, and Sahana). Laki is excluded because no sufficiently detailed published wordlist was available at the time of data collection.
+This thesis is a proof of concept, not a definitive classification of Southern Kurdish. The dataset comprises an 85-item borrowing-resistant wordlist elicited from 11 speakers representing 7 SK varieties (Faili, Kalhori, Khanaqini, Qasri, Mandali, Sahana, and Ilaimi/Bijari [ask Masoud]). Laki is excluded because no sufficiently detailed published wordlist was available at the time of data collection.
 
 The study addresses three research questions:
 
@@ -219,4 +219,5 @@ The decision to work with eighty-five items rather than a larger inventory also 
 | Apr 13-Apr 26 | Review | Supervisor feedback (Haig/Babinski) |
 | Apr 27-May 17 | Polishing | Revisions; LaTeX formatting; Bibliography audit |
 | May 18-May 24 | Submission | Final hand-in |
+
 
